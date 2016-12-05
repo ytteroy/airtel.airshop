@@ -169,7 +169,7 @@ airtel_payments = {
         var price = key;
         
         // Set new price in text
-        $('#price').text(price.toFixed(2));
+        $('#price').text(price);
         
         // Set new KEY
         $('#key').text(key);
