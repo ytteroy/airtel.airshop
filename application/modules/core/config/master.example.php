@@ -99,7 +99,7 @@ $config['base_modules'] = array (
 /**
  * Shop nosaukums kas tiek parādīts veikala augšējā daļā
  */
-$config['shop_header'] = 'Veikals <span class="small">v2</span>';
+$config['shop_header'] = 'Airshop';
 
 
 /**

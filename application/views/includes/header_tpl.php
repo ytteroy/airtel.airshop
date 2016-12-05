@@ -1,52 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-
-    <title>Airtel sms shop ( v2 )</title>
-    
-    <!-- Custom header font -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic" />
-    
-     <!-- Loading css styles -->
-    <style type="text/css">
-        
-        /* Boostrap */
-        @import url("<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css");
-        /* Awesome */
-        @import url("<?php echo base_url(); ?>awesome/css/font-awesome.css");
-        /* Side accordion */
-        @import url("<?php echo base_url(); ?>css/accordion.css");
-        /* Breadcrumb */
-        @import url("<?php echo base_url(); ?>css/breadcrumb.css");
-        /* Chosen */
-        @import url("<?php echo base_url(); ?>lib/chosen/chosen.css");
-        /* Datatables */
-        @import url("<?php echo base_url(); ?>css/datatables.css");
-        /* Step wizard */
-        @import url("<?php echo base_url(); ?>lib/wizard/jquery.form.wizard.css");
-        
-        /* Base style */
-        @import url("<?php echo base_url(); ?>css/base.css");
-        
-        /* Default theme */
-        @import url("<?php echo base_url(); ?>css/themes/theme-<?php echo $this->config->item('shop_theme'); ?>.css");
-    </style>
-    
-    <script>
-        document.documentElement.className += 'js';
-    </script>
-    
+	<meta charset="utf-8">
+	<title>Airtel Airshop</title>
+	
+	<!-- Custom header font -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic" />
+	
+	<!-- Loading css styles -->
+	<style type="text/css">
+		/* Boostrap */
+		@import url("<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css");
+		/* Awesome */
+		@import url("<?php echo base_url(); ?>awesome/css/font-awesome.css");
+		/* Side accordion */
+		@import url("<?php echo base_url(); ?>css/accordion.css");
+		/* Breadcrumb */
+		@import url("<?php echo base_url(); ?>css/breadcrumb.css");
+		/* Chosen */
+		@import url("<?php echo base_url(); ?>lib/chosen/chosen.css");
+		/* Datatables */
+		@import url("<?php echo base_url(); ?>css/datatables.css");
+		/* Step wizard */
+		@import url("<?php echo base_url(); ?>lib/wizard/jquery.form.wizard.css");
+		
+		/* Base style */
+		@import url("<?php echo base_url(); ?>css/base.css");
+		
+		/* Default theme */
+		@import url("<?php echo base_url(); ?>css/themes/theme-<?php echo $this->config->item('shop_theme'); ?>.css");
+	</style>
+	
+	<script>
+		document.documentElement.className += 'js';
+	</script>
 </head>
 <body>
-    
-    <?php 
-    if( ! $this->config->item('iframe_mode')): 
-        ?>
-        <br /><br /><br />
-        <?php 
-    endif; 
-    ?>
+	<?php 
+	if( ! $this->config->item('iframe_mode')): 
+		?>
+		<br /><br /><br />
+		<?php 
+	endif; 
+	?>
     
     <!-- Basic container -->
     <div class="container" id="container">

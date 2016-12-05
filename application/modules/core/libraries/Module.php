@@ -101,7 +101,8 @@ class Module
         // Setting active service
         if(empty($this->active_service) && $this->CI->uri->rsegment(2) == 'index')
         {
-            $this->active_service = array_shift(array_keys($this->services));
+            $firstarray_active_service = array_keys($this->services);
+            $this->active_service = array_pop($firstarray_active_service);
             redirect($this->active_module.'/index/'.$this->active_service);
         }
         
